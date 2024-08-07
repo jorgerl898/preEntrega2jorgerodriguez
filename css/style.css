@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*!--------reset--------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*!--------tipografia--------*/
+/* Las tipografias
+    font-family: "Roboto", sans-serif;
+    font-family: "Platypi", serif;
+    */
+/* Las paletas de colores
+    color: rgba(68, 69, 73, 1) ancla
+    color: rgba(77, 87, 96, 1) parrafo
+    color: rgba(77, 87, 96, 0.19)
+    color: rgba(232, 137, 126, 1)
+    color: rgba(240, 228, 214, 1)
+*/
+
+h1 {
+    font-family: "Platypi", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: rgba(232, 137, 126, 1);
+}
+
+h2 {
+    font-family: "Platypi", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(68, 69, 73);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(77, 87, 96);
+    line-height: 1.5;
+}
+
+/*!--------boton--------*/
+.boton {
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: rgba(232, 137, 126, 1);
+    color: white;
+    border-radius: 30px;
+    border: 0;
+    width: 150px;
+    margin: 0;
+}
+
+/*!--------header--------*/
+
+.nav {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 150px;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    align-items: end;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(68, 69, 73);
+}
+
+
+/*!--------main--------*/
+
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: rgb(240, 228, 214);
+}
+
+.hero-text {
+    height: 100%;
+    width: 30%;
+}
+
+.hero-titulo {
+    color: rgba(232, 137, 126, 1);
+}
+
+.hero-figure {
+    width: 50%;
+    margin: 0;
+}
+
+.hero-img {
+    width: 100%;
+    display: block;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*!--------footer--------*/
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.514)
+}
+
+.footer-publicidades {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-figure-publicidad {
+    box-shadow: 5px 5px 5px gray;
+    margin: 15px;
+}
+
+.footer-img {
+    width: 100%;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.footer-publicidades-redes {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-texto-redes {
+    text-align: justify;
+    
+}
+
+.footer-redes {
+    text-align: center;
+}
+
+.footer-img-redes {
+    display: flex;
+    gap: 2px;
+}
+
+.footer-img-rsocial {
+    width: 100%;
+    display: block;
+    max-width: 35px;
+    margin: 0 auto;
+}
+
+.footer-legal {
+    background-color: rgba(77, 87, 96, 1);
+    height: 40px;
+    padding-top: 10px;
+}
+
+.footer-parrafo {
+    color: white;
+    text-align: center;
+}
+
+/*!--------Servicios--------*/
+
+.servicios-card {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 60%;
+    gap: 20px;
+}
+.servicios-card-reverse {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    gap: 20px;
+
+}
+.servicios-img-container {
+    width: 50%;
+}
+
+.servicios-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.servicios-text {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.servicios-text-principal {
+    width: 40%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.servicios-titulo-principal {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.boton-servicios{
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: rgba(232, 137, 126, 1);
+    color: white;
+    border-radius: 30px;
+    border: 0;
+    width: 150px;
+    margin: 0;
+}
+
+
+
+
+/*!--------Productos--------*/
+/*--------Tarjeta giratoria--------*/
+
+.Productos-Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.Precio {
+    color: rgb(235, 89, 89);
+}
+
+.producto-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.producto-card div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.producto-card .producto-front {
+    transform: perspective(500px)rotateY(0deg);
+}
+
+.producto-card .producto-front img {
+    width: 300px;
+    height: 400px;
+}
+
+.producto-card .producto-back {
+    transform: perspective(500px)rotateY(180deg);
+}
+
+.producto-card:hover .producto-front {
+    transform: perspective(500px)rotateY(180deg);
+}
+
+.producto-card:hover .producto-back {
+    transform: perspective(500px)rotateY(360deg);
+}
+
+/*!--------Curso--------*/
+.producto-text {
+    text-align: center;
+}
+
+.contenedor {
+
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+}
+
+.galeria-figure {
+    margin: 0;
+}
+
+.galeria-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*!--------Contacto--------*/
+
+.contenedor-contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.iframe {
+    width: 300px;
+}
+
+.servicios__text--principal {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/*!--------Media-Query-1040-Inicio------*/
+@media (max-width:1040px) {
+    h1 {
+        font-size: 39px;
+    }
+
+    a {
+        font-size: 19px;
+    }
+
+    .boton {
+        width: 140px;
+    }
+}
+
+
+
+
+/*!--------Media-Query-1012-Inicio------*/
+
+@media (max-width:1012px) {
+    h1 {
+        font-size: 37px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .boton {
+        padding: 8px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 130px;
+        margin: 0;
+    }
+}
+
+/*!--------Media-Query-962-Inicio------*/
+@media (max-width:962px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .boton {
+        padding: 7px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 130px;
+        margin: 0;
+    }
+}
+
+/*!--------Media-Query-768-Inicio------*/
+@media (max-width:768px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .boton {
+        padding: 7px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 130px;
+        margin: 0;
+    }
+}
+
+/*!--------Media-Query-753-Inicio------*/
+@media (max-width:753px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+}
+
+/*!--------Media-Query-700-Inicio------*/
+@media (max-width:700px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .boton {
+        padding: 5px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 70%;
+        margin: 10px 0 0;
+    }
+
+    .hero-figure {
+        width: 75%;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+
+/*!--------Media-Query-425-Inicio------*/
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 70%;
+    }
+
+    .hero-figure {
+        width: 100%;
+    }
+}
+
+/*!--------Media-Query-375-Inicio------*/
+
+@media (max-width:375px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 70%;
+    }
+
+    .hero-figure {
+        width: 100%;
+    }
+}
+
+
+/*!--------Media-Query-320-Inicio------*/
+
+@media (max-width:320px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .hero-titulo {
+        text-align: center;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: rgba(232, 137, 126, 1);
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .hero-figure {
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+/*!--------Media-Query-1295 Servicios-------*/
+@media (max-width:1295px){
+    .boton-servicios {
+        padding: 9px;
+        width: 140px;
+
+    }
+    .servicios-card .servicios-card-reverse {
+        width: 65%;
+    }
+}
+/*!--------Media-Query-1025 Servicios-------*/
+@media (max-width:1024px){
+    .boton-servicios {
+        padding: 9px;
+        width: 140px;
+
+    }
+    .servicios-card .servicios-card-reverse {
+        width: 90%;
+    }
+}
