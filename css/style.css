@@ -256,11 +256,12 @@ a {
 .Productos-Card {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 60%;
     margin: 0 auto;
     padding: 40px;
+    gap: 40px;
 }
 
 .Precio {
@@ -641,51 +642,61 @@ form {
 
     }
 
-    .servicios-card .servicios-card-reverse {
-        width: 65%;
-    }
-}
 
-/*!--------Media-Query-1025 Servicios-------*/
-@media (max-width:1024px) {
-    .boton-servicios {
-        padding: 9px;
-        width: 140px;
+
+    /*!--------Media-Query-1024 Servicios-------*/
+    @media (max-width:1024px) {
+        .boton-servicios {
+            padding: 9px;
+            width: 140px;
+        }
+
 
     }
 
-    .servicios-card .servicios-card-reverse {
-        width: 90%;
+    /*!--------Media-Query-1166 productos-------*/
+    @media (max-width:1166px) {
+        .servicios-text-principal {
+            width: 50%;
+        }
     }
-}
-/*!--------Media-Query-1059 productos-------*/
-@media (max-width:1059px){
-    .servicios-text-principal {
-        width: 50%;
-    }
+
+    /*!--------Media-Query-1059 productos-------*/
+    @media (max-width:1059px) {
+        .servicios-text-principal {
+            width: 50%;
+        }
+
     }
 
     /*!--------Media-Query-702 productos-------*/
-@media (max-width:702px){
-    .servicios-text-principal {
-        width: 60%;
+    @media (max-width:702px) {
+        .servicios-text-principal {
+            width: 60%;
+        }
     }
-    }
+
     /*!--------Media-Query-586 productos-------*/
-@media (max-width:586px){
-    .servicios-text-principal {
-        width: 70%;
+    @media (max-width:586px) {
+        .servicios-text-principal {
+            width: 70%;
+        }
     }
+
+    /*!--------Media-Query-448 productos-------*/
+    @media (max-width:448px) {
+        .servicios-text-principal {
+            width: 80%;
+        }
     }
-/*!--------Media-Query-448 productos-------*/
-@media (max-width:448px){
-.servicios-text-principal {
-    width: 80%;
-}
-}
-/*!--------Media-Query-440 productos-------*/
-@media (max-width:440px){
-    .servicios-text-principal {
-        width: 90%;
-    }
+
+    /*!--------Media-Query-440 productos-------*/
+    @media (max-width:440px) {
+        .servicios-text-principal {
+            width: 90%;
+        }
+
+        .Productos-Card {
+            max-width: 90%;
+        }
     }
