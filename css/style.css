@@ -658,3 +658,34 @@ form {
         width: 90%;
     }
 }
+/*!--------Media-Query-1059 productos-------*/
+@media (max-width:1059px){
+    .servicios-text-principal {
+        width: 50%;
+    }
+    }
+
+    /*!--------Media-Query-702 productos-------*/
+@media (max-width:702px){
+    .servicios-text-principal {
+        width: 60%;
+    }
+    }
+    /*!--------Media-Query-586 productos-------*/
+@media (max-width:586px){
+    .servicios-text-principal {
+        width: 70%;
+    }
+    }
+/*!--------Media-Query-448 productos-------*/
+@media (max-width:448px){
+.servicios-text-principal {
+    width: 80%;
+}
+}
+/*!--------Media-Query-440 productos-------*/
+@media (max-width:440px){
+    .servicios-text-principal {
+        width: 90%;
+    }
+    }
