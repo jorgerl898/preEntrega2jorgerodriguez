@@ -157,7 +157,7 @@ a {
 
 .footer-texto-redes {
     text-align: justify;
-    
+
 }
 
 .footer-redes {
@@ -196,6 +196,7 @@ a {
     width: 60%;
     gap: 20px;
 }
+
 .servicios-card-reverse {
     display: flex;
     margin: 0 auto;
@@ -203,6 +204,7 @@ a {
     gap: 20px;
 
 }
+
 .servicios-img-container {
     width: 50%;
 }
@@ -233,7 +235,8 @@ a {
     text-align: center;
     padding-bottom: 20px;
 }
-.boton-servicios{
+
+.boton-servicios {
     padding: 0.625rem;
     text-decoration: none;
     background-color: rgba(232, 137, 126, 1);
@@ -248,7 +251,7 @@ a {
 
 
 /*!--------Productos--------*/
-/*--------Tarjeta giratoria--------*/
+/*--------Tarjeta giratoria--aplicando pseudoclases------*/
 
 .Productos-Card {
     display: flex;
@@ -631,23 +634,26 @@ form {
 }
 
 /*!--------Media-Query-1295 Servicios-------*/
-@media (max-width:1295px){
+@media (max-width:1295px) {
     .boton-servicios {
         padding: 9px;
         width: 140px;
 
     }
+
     .servicios-card .servicios-card-reverse {
         width: 65%;
     }
 }
+
 /*!--------Media-Query-1025 Servicios-------*/
-@media (max-width:1024px){
+@media (max-width:1024px) {
     .boton-servicios {
         padding: 9px;
         width: 140px;
 
     }
+
     .servicios-card .servicios-card-reverse {
         width: 90%;
     }
