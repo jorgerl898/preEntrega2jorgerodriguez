@@ -1,0 +1,120 @@
+/*------servicios------*/
+.contenedor-text {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+}
+
+.servicios-card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    figure {
+        flex: 1;
+        max-width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    div {
+        flex: 1;
+        padding: 16px;
+        max-width: 50%;
+
+        a .boton {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}
+
+/*---usar un extent---*/
+.servicios-card-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    figure {
+        flex: 1;
+        max-width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    div {
+        flex: 1;
+        padding: 16px;
+        max-width: 50%;
+
+        a .boton {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+}
