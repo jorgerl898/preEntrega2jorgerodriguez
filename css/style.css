@@ -188,7 +188,7 @@ p {
   padding: 20px; }
   .galeria-contenedor .galeria-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px; }
     .galeria-contenedor .galeria-grid .galeria-figure {
       margin: 0;
@@ -260,13 +260,11 @@ p {
 .footer-redes {
   display: flex;
   flex-direction: column;
-  /* Cambiado a columna para que el título esté arriba de las redes sociales */
   align-items: center; }
 
 .footer-texto-redes-titulo {
   font-weight: bold;
-  margin-bottom: 10px;
-  /* Espacio entre el título y las redes sociales */ }
+  margin-bottom: 10px; }
 
 .footer-img-redes {
   display: flex;
@@ -276,7 +274,6 @@ p {
   width: 30px;
   height: 30px; }
 
-/* Enlaces legales */
 .footer-legal {
   border-top: 1px solid #ccc;
   padding-top: 10px;
@@ -338,24 +335,16 @@ p {
   /*-----media query inicio-----*/
   .hero {
     flex-direction: column;
-    /* Cambia a columna en pantallas pequeñas */
-    text-align: center;
-    /* Centra el texto en pantallas pequeñas */ }
+    text-align: center; }
   .hero-text {
     width: 100%;
-    /* Ancho completo en pantallas pequeñas */
-    padding: 20px;
-    /* Reduce el padding para pantallas pequeñas */ }
+    padding: 20px; }
   .hero-figure {
     width: 100%;
-    /* Ancho completo en pantallas pequeñas */
-    margin: 10px 0;
-    /* Espacio vertical entre texto e imagen */ }
+    margin: 10px 0; }
   .hero-img {
     max-width: 100%;
-    /* Asegura que la imagen no se desborde */
-    height: auto;
-    /* Mantiene la proporción de la imagen */ }
+    height: auto; }
   /*-----card servicio----*/
   .servicios-card,
   .servicios-card-reverse {
@@ -365,32 +354,23 @@ p {
       max-width: 100%; }
   /*-----contacto----*/
   .contenedor-contact {
-    /*display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
-    margin: 20px;
-    gap: 20px;
-}*/ } }
-  @media (max-width: 768px) and (max-width: 768px) {
-    .contenedor-contact {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr, 1fr;
-      gap: 10px; }
-      .contenedor-contact .contenedor-text-contacto {
-        grid-column: 1/3;
-        grid-row: 1;
-        text-align: center; }
-      .contenedor-contact .contenedor-form {
-        grid-row: 2;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 80%; }
-      .contenedor-contact .iframe {
-        grid-row: 2;
-        display: flex;
-        justify-content: center; } }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    gap: 10px; }
+    .contenedor-contact .contenedor-text-contacto {
+      grid-column: 1/3;
+      grid-row: 1;
+      text-align: center; }
+    .contenedor-contact .contenedor-form {
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%; }
+    .contenedor-contact .iframe {
+      grid-row: 2;
+      display: flex;
+      justify-content: center; } }
 
 @media (max-width: 500px) {
   .footer-publicidades {
@@ -421,7 +401,12 @@ p {
     font-size: 1.5rem; }
   p {
     font-size: 0.8rem; }
-  /*-----card productos----*/ }
+  .galeria-contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    padding: 20px; } }
 
 @media (max-width: 320px) {
   h1 {
@@ -432,12 +417,8 @@ p {
     padding-bottom: 0; }
   .hero-text {
     padding: 10px;
-    /* Reduce aún más el padding en pantallas muy pequeñas */
-    font-size: 14px;
-    /* Ajusta el tamaño de la fuente si es necesario */ }
+    font-size: 14px; }
   .hero-figure {
-    margin: 5px 0;
-    /* Reduce el espacio vertical en pantallas muy pequeñas */ }
+    margin: 5px 0; }
   .hero-img {
-    max-width: 100%;
-    /* Asegura que la imagen se ajuste al contenedor */ } }
+    max-width: 100%; } }

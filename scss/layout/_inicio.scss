@@ -2,15 +2,15 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; // Distribuye espacio entre texto e imagen
+    justify-content: space-between;
     align-items: center;
     background: rgb(240, 228, 214);
-    background-size: cover; // Asegura que el fondo cubra todo el contenedor
-    background-position: center; // Centra el fondo para evitar distorsión
-    background-repeat: no-repeat; // Evita que el fondo se repita
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     .hero-text {
-        width: auto; // Ancho del texto para pantallas grandes
+        width: auto;
         padding-left: 60px;
 
     }
@@ -22,8 +22,8 @@
         img {
             width: 100%;
             display: block;
-            max-width: 950px; // Máximo ancho de la imagen
-            height: auto; // Mantiene la proporción de la imagen
+            max-width: 950px;
+            height: auto;
             margin: 0 auto;
         }
     }
