@@ -45,24 +45,7 @@
     div {
         flex: 1;
         padding: 16px;
-        max-width: 50%;
-
-        a .boton {
-            background-color: #007bff;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #0056b3;
-            }
-        }
+        max-width: 100%;
     }
 }
 
@@ -99,22 +82,5 @@
         flex: 1;
         padding: 16px;
         max-width: 50%;
-
-        a .boton {
-            background-color: #007bff;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #0056b3;
-            }
-        }
     }
 }

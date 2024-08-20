@@ -1,0 +1,33 @@
+@media (max-width: 500px) {
+
+    .footer-publicidades {
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+
+    .footer-publicidades-redes {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    /*-----card servicios-----*/
+    .servicios-card,
+    .servicios-card-reverse {
+        flex-direction: column;
+
+        figure {
+            flex: 1;
+            max-width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        div {
+            max-width: 100%;
+        }
+    }
+}

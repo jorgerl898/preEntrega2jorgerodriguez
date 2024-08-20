@@ -12,102 +12,109 @@
 
 <body>
     <!-- barra de navegacion usando bootrap -->
-    <header class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="nav d-flex justify-content-between">
-            <a href="../index.html" class="nav-logo">
-                <img class="nav-img" src="../assets/img/logo-chiazzaro-mdf.png" alt="logo chiazzaro">
-            </a>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img class="nav-img" src="../assets/img/logo-chiazzaro-mdf.png"
+                    alt="logo chiazzaro"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li>
-                        <a href="../index.html">Inicio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
-                    <li>
-                        <a href="#">Servicios</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
                     </li>
-                    <li>
-                        <a href="./productos.html">Productos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
                     </li>
-                    <li>
-                        <a href="./cursos.html">Cursos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cursos.html">Cursos</a>
                     </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="servicios">
+        <section>
             <article class="contenedor-text">
-                <h1 class="titulo-principal">Que Servicios Te Brindamos</h1>
-                <p class="parrafo-principal">Descubre una gama completa de servicios diseñados para ti
+                <h1>Que Servicios Te Brindamos</h1>
+                <p>Descubre una gama completa de servicios diseñados para ti
                     Desde tratamientos faciales personalizados que utilizan ingredientes orgánicos hasta terapias
                     rejuvenecedoras que restauran la luminosidad natural de tu piel</p>
             </article>
 
             <div class="servicios-container">
                 <article class="servicios-card">
-                    <figure class="servicios-img-container">
-                        <img class="servicios-img" src="../assets/img/limpieza-facial.jpg" alt="Mujer recibiendo limpieza facial">
+                    <figure>
+                        <img src="../assets/img/limpieza-facial.jpg" alt="Mujer recibiendo limpieza facial">
                     </figure>
-                    <div class="servicios-text">
-                        <h2 class="servicios-sub-titulo">Limpieza Facial</h2>
+                    <div>
+                        <h2>Limpieza Facial</h2>
                         <p class="servicios-parrafo">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime eligendi ducimus accusamus ipsam?
+                            Entendemos que tu piel merece un cuidado especial. Nuestro servicio de limpieza facial está
+                            diseñado para brindarte una experiencia rejuvenecedora que va más allá de una simple
+                            limpieza.
                         </p>
-                        <a href="./pages/contacto.html">
-                            <button class="boton">Reserva Ya</button>
+                        <a class="boton" href="./pages/contacto.html">
+                            Reserva Ya
                         </a>
                     </div>
                 </article>
-                
+
                 <article class="servicios-card-reverse">
-                    <figure class="servicios-img-container">
-                        <img class="servicios-img" src="../assets/img/maquillaje-profesional.jpg" alt="Maquillaje profesional">
+                    <figure>
+                        <img src="../assets/img/maquillaje-profesional.jpg" alt="Maquillaje profesional">
                     </figure>
-                    <div class="servicios-text">
+                    <div>
                         <h2 class="servicios-sub-titulo">Maquillaje Profesional</h2>
                         <p class="servicios-parrafo">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime eligendi ducimus accusamus ipsam?
+                            Entendemos que cada ocasión merece un toque especial. Nuestro servicio de maquillaje
+                            profesional está diseñado para ofrecerte una experiencia única que resalta tu belleza de
+                            manera impecable.
                         </p>
-                        <a href="./pages/contacto.html">
-                            <button class="boton">Reserva Ya</button>
+                        <a class="boton" href="./pages/contacto.html">
+                            Reserva Ya
                         </a>
                     </div>
                 </article>
-                
+
                 <article class="servicios-card">
-                    <figure class="servicios-img-container">
-                        <img class="servicios-img" src="../assets/img/depilacion-corporal.png" alt="Depilación corporal">
+                    <figure>
+                        <img src="../assets/img/depilacion-corporal.png" alt="Depilación corporal">
                     </figure>
-                    <div class="servicios-text">
-                        <h2 class="servicios-sub-titulo">Depilación Corporal</h2>
-                        <p class="servicios-parrafo">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime eligendi ducimus accusamus ipsam?
+                    <div>
+                        <h2>Depilación Corporal</h2>
+                        <p>
+                            ofrecemos una depilación corporal profesional que garantiza resultados efectivos y
+                            duraderos. Nuestro equipo utiliza técnicas avanzadas y productos de alta calidad para
+                            brindarte una experiencia cómoda y libre de irritaciones.
                         </p>
-                        <a href="./pages/contacto.html">
-                            <button class="boton">Reserva Ya</button>
+                        <a class="boton" href="./pages/contacto.html">
+                            Reserva Ya
                         </a>
                     </div>
                 </article>
-                
+
                 <article class="servicios-card-reverse">
-                    <figure class="servicios-img-container">
-                        <img class="servicios-img" src="../assets/img/extension-de-pestaña.jpg" alt="Extensión de pestañas">
+                    <figure>
+                        <img src="../assets/img/extension-de-pestaña.jpg" alt="Extensión de pestañas">
                     </figure>
-                    <div class="servicios-text">
-                        <h2 class="servicios-sub-titulo">Extensión de Pestañas</h2>
-                        <p class="servicios-parrafo">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime eligendi ducimus accusamus ipsam?
+                    <div>
+                        <h2>Extensión de Pestañas</h2>
+                        <p>
+                            Transformamos tu mirada con nuestro servicio de extensión de
+                            pestañas, ofreciendo un look espectacular y duradero. Nuestro equipo de especialistas está
+                            altamente capacitado para aplicar extensiones que realzan la belleza natural de tus ojos.
                         </p>
-                        <a href="./pages/contacto.html">
-                            <button class="boton">Reserva Ya</button>
+                        <a class="boton" href="./pages/contacto.html">
+                            Reserva Ya
                         </a>
                     </div>
                 </article>

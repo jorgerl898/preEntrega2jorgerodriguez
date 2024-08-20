@@ -2,16 +2,30 @@
 
 
 /*--base--*/
-@import "./base/fuentes.scss";
 @import "./base/reset";
+@import "./base/fuentes";
+
 
 
 
 /*todo lo que sea layuot*/
-@import "./layout/servicios"
+@import "./layout/inicio";
+@import "./layout/servicios";
+@import "./layout/productos";
+@import "./layout/cursos";
+@import "./layout/contacto";
+@import "./layout/footer";
+
 
 
 /*componentes*/
+@import "./components/boostrap-menu";
 
 
 /* media query*/
+@import "./layout/media-query/media-1220px";
+@import "./layout/media-query/media-970px";
+@import "./layout/media-query/media-768px.scss";
+@import "./layout/media-query/media-500px";
+@import "./layout/media-query/media-425px";
+@import "./layout/media-query/media-320px.scss";

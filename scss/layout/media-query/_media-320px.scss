@@ -1,0 +1,30 @@
+@media (max-width: 320px) {
+    
+    h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+      
+
+    
+      .hero-tex{
+        padding-bottom: 0;
+      }
+    
+    .hero-text {
+        padding: 10px; /* Reduce aún más el padding en pantallas muy pequeñas */
+        font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+    }
+
+    .hero-figure {
+        margin: 5px 0; /* Reduce el espacio vertical en pantallas muy pequeñas */
+    }
+
+    .hero-img {
+        max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    }
+    
+}

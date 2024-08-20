@@ -1,0 +1,101 @@
+/* Footer general */
+
+.footer {
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de publicidades */
+
+.footer-publicidades {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-figure-publicidad {
+    margin: 0;
+}
+
+.footer-img {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Sección de redes sociales */
+
+.footer-publicidades-redes {
+    display: flex;
+    flex-direction: row;
+
+    /* Cambiado a columna para que el texto esté arriba de las redes sociales */
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-texto-redes {
+    text-align: center;
+
+    /* Centrar el texto */
+    margin-bottom: 10px;
+
+    /* Espacio entre el texto y las redes sociales */
+}
+.footer-texto-redes p{
+    margin: 0;
+}
+
+.footer-redes {
+    display: flex;
+    flex-direction: column;
+
+    /* Cambiado a columna para que el título esté arriba de las redes sociales */
+    align-items: center;
+}
+
+.footer-texto-redes-titulo {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    /* Espacio entre el título y las redes sociales */
+}
+
+.footer-img-redes {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img-rsocial {
+    width: 30px;
+    height: 30px;
+}
+
+/* Enlaces legales */
+
+.footer-legal {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    background-color: rgba(77, 87, 96, 1);
+    color: white;
+}
+
+.footer-legal p{
+    color: white;
+}
+
+.footer-parrafo {
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
