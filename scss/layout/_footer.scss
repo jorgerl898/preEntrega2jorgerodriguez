@@ -1,18 +1,15 @@
 /* Footer general */
-
 .footer {
-    background-color: #f8f8f8;
-    padding-top: 20px;
+    background-color: map-get($colores, fondo-footer);
+    padding-top: map-get($espaciado, pequeño);
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: map-get($sombras, footer);
 }
-
-/* Sección de publicidades */
 
 .footer-publicidades {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: map-get($espaciado, pequeño);
 }
 
 .footer-figure-publicidad {
@@ -20,68 +17,57 @@
 }
 
 .footer-img {
-    max-width: 120px;
+    max-width: map-get($tamaños, imagen-footer);
     height: auto;
 }
-
-/* Sección de redes sociales */
 
 .footer-publicidades-redes {
     display: flex;
     flex-direction: row;
-
-    /* Cambiado a columna para que el texto esté arriba de las redes sociales */
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: map-get($espaciado, pequeño);
 }
 
 .footer-texto-redes {
     text-align: center;
-
-    /* Centrar el texto */
     margin-bottom: 10px;
-
-    /* Espacio entre el texto y las redes sociales */
 }
-.footer-texto-redes p{
+
+.footer-texto-redes p {
     margin: 0;
 }
 
 .footer-redes {
     display: flex;
     flex-direction: column;
-
-
     align-items: center;
 }
 
 .footer-texto-redes-titulo {
     font-weight: bold;
-    margin-bottom: 10px;
-
-
+    margin-bottom: .625rem;
 }
 
 .footer-img-redes {
     display: flex;
-    gap: 10px;
+    gap: .625rem;
 }
 
 .footer-img-rsocial {
-    width: 30px;
-    height: 30px;
+    width: map-get($tamaños, imagen-rede);
+    height: map-get($tamaños, imagen-rede);
 }
 
 .footer-legal {
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    background-color: rgba(77, 87, 96, 1);
-    color: white;
+    border-top: map-get($borders, borde-footer);
+    background-color: map-get($colores, fondo-footer-legal);
+    color: map-get($colores, texto-footer-legal);
 }
 
-.footer-legal p{
-    color: white;
+.footer-legal p {
+    color: map-get($colores, texto-footer-legal);
+    padding: map-get($espaciado, pequeño);
 }
 
 .footer-parrafo {
@@ -90,7 +76,7 @@
 
 .footer-link {
     text-decoration: none;
-    color: white;
+    color: map-get($colores, texto-footer-legal);
     margin: 0 5px;
 
     &:hover {

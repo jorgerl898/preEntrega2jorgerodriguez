@@ -1,3 +1,4 @@
+/*---reset---*/
 * {
     padding: 0;
     margin: 0;
@@ -8,14 +9,14 @@
     background-color: rgba(232, 137, 126, 1);
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
+    font-size: 1rem;
+    border-radius: .25rem;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
 
     &:hover {
         background-color: rgb(250, 248, 248);
@@ -23,11 +24,5 @@
         color:rgba(232, 137, 126, 1);
     }
 
-    /*revisar esta clase mañana*/
-    .contenedor-text {
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-        margin-bottom: 40px;
-      }
+
 }

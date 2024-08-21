@@ -1,27 +1,27 @@
-
-
-
 /*----cursos galeria----*/
-
 .galeria-contenedor {
     width: 60%;
-    max-width: 1200px;
+    max-width: map-get($tamaños, maximo-contenedor);
     margin: 0 auto;
     overflow: hidden;
-    padding: 20px;
+    padding: map-get($espaciado, general);
+
     .galeria-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 15px;
+        gap: map-get($espaciado, galeria);
+
         .galeria-figure {
             margin: 0;
-            border-radius: 8px;
+            @include borde-redondeado(.5rem);
             overflow: hidden;
-            transition: transform 0.3s ease;
+            transition: transform map-get($transiciones, general);
+            @include sombra(0 0.125rem 0.25rem rgba(0, 0, 0, 0.5));
             &:hover {
                 transform: scale(1.02);
             }
-            img{
+
+            img {
                 width: 100%;
                 height: auto;
                 object-fit: cover;

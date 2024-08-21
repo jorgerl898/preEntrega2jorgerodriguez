@@ -1,10 +1,11 @@
+/*---inicio---*/
 .hero {
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(240, 228, 214);
+    background: map-get($colores, fondo-principal);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +13,6 @@
     .hero-text {
         width: auto;
         padding-left: 60px;
-
     }
 
     .hero-figure {
@@ -22,7 +22,7 @@
         img {
             width: 100%;
             display: block;
-            max-width: 950px;
+            max-width: map-get($tamaños, hero-maximo);
             height: auto;
             margin: 0 auto;
         }

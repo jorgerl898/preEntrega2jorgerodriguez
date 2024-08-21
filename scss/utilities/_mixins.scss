@@ -1,0 +1,9 @@
+/*--- Mixin para aplicar sombras---*/
+@mixin sombra($sombra) {
+    box-shadow: $sombra;
+}
+
+/*--- Mixin para aplicar bordes redondeados---*/
+@mixin borde-redondeado($radio) {
+    border-radius: $radio;
+}

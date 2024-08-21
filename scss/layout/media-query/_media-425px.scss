@@ -7,16 +7,10 @@
     font-size: 1.5rem;
   }
 
-  p {
-    font-size: 0.8rem;
-  }
-
   .galeria-contenedor {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* overflow: hidden; */
-    padding: 20px;
-}
-
+    padding: map-get($espaciado, general);
+  }
 }

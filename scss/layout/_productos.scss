@@ -1,18 +1,17 @@
+/*---productos---*/
 .contenedor-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .producto-card {
     position: relative;
-    width: 18.75rem;
-    height: 25rem;
-    border-radius: 50px;
+    width: map-get($tamaños, tarjeta);
+    height: map-get($tamaños, altura-tarjeta);
 
     div {
         position: absolute;
@@ -22,12 +21,11 @@
         align-items: center;
         justify-content: center;
         backface-visibility: hidden;
-        transition: 1.3s;
+        transition: map-get($transiciones, rotacion);
         display: flex;
         flex-direction: column;
         text-align: center;
-        
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: map-get($sombras, producto);
     }
 
     .producto-front {
@@ -35,22 +33,22 @@
 
         img {
             width: 100%;
-
-
-            
         }
     }
 
     .producto-back {
         transform: perspective(500px) rotateY(180deg);
+
         .Precio {
-            color: rgb(235, 89, 89);
+            color: map-get($colores, texto-principal);
         }
     }
+
     &:hover {
         .producto-front {
             transform: perspective(500px) rotateY(180deg);
         }
+
         .producto-back {
             transform: perspective(500px) rotateY(360deg);
         }

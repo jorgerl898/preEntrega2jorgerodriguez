@@ -1,0 +1,56 @@
+/*--- Colores ---*/
+$colores: (
+    fondo-principal: rgb(240, 228, 214),
+    texto-principal: rgba(232, 137, 126, 1),
+    texto-secundario: rgb(68, 69, 73),
+    texto-parrafos: rgb(77, 87, 96),
+    fondo-footer: #f8f8f8,
+    boton: rgba(232, 137, 126, 1),
+    boton-hover: rgb(250, 248, 248),
+    texto-footer: white,
+    borde-footer: #ccc,
+    fondo-footer-legal: rgba(77, 87, 96, 1),
+    texto-footer-legal: white
+);
+
+/*--- Tipografía---*/
+$fuentes: (
+    principal: "Platypi",
+    secundaria: "Roboto"
+);
+
+/*--- Tamaños---*/
+$tamaños: (
+    tarjeta: 18.75rem,
+    altura-tarjeta: 25rem,
+    maximo-contenedor: 75rem,
+    hero-maximo: 59.375rem,
+    imagen-footer: 7.5rem,
+    imagen-rede: 1.875rem
+);
+
+/*--- Espaciado---*/
+$espaciado: (
+    general: 1.25rem,
+    pequeño: .625rem,
+    tarjeta: .125rem,
+    galeria: .9375rem
+);
+
+/*--- Bordes y radios---*/
+$borders: (
+    radio: 8px,
+    borde-footer: .0625rem solid #ccc
+);
+
+/*--- Sombras---*/
+$sombras: (
+    tarjeta: 0 .25rem .5rem rgba(0, 0, 0, 0.1),
+    footer: 0 .125rem .25rem rgba(0, 0, 0, 0.1),
+    producto: 0 .125rem .25rem rgba(0, 0, 0, 0.5)
+);
+
+/*--- Transiciones---*/
+$transiciones: (
+    general: 0.3s ease,
+    rotacion: 1.3s)

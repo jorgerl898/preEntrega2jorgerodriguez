@@ -1,16 +1,17 @@
 @media (max-width: 500px) {
+    .contenedor-text {
+        width: 90%;
+    }
 
     .footer-publicidades {
         flex-wrap: wrap;
-        gap: 20px;
-
+        gap: map-get($espaciado, general);
     }
 
     .footer-publicidades-redes {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: map-get($espaciado, general);
     }
-
 
     /*-----card servicios-----*/
     .servicios-card,

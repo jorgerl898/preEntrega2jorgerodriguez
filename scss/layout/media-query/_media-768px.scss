@@ -1,4 +1,3 @@
-/*-----media query inicio-----*/
 @media (max-width: 768px) {
     .hero .hero-text {
         padding: 40px;
@@ -17,7 +16,6 @@
         font-size: 0.9rem;
     }
 
-    /*-----media query inicio-----*/
     .hero {
         flex-direction: column;
         text-align: center;
@@ -42,10 +40,17 @@
     .servicios-card,
     .servicios-card-reverse {
         flex-direction: column;
+        text-align: center;
 
         figure {
             max-width: 100%;
         }
+    }
+
+    .contenedor-text {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
 
     /*-----contacto----*/

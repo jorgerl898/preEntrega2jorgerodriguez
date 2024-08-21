@@ -1,5 +1,7 @@
 /*las utilities son las primeras que tenemos que importar*/
-
+@import "./utilities/maps";
+@import "./utilities/extends";
+@import "./utilities/mixins";
 
 /*--base--*/
 @import "./base/reset";
@@ -20,12 +22,13 @@
 
 /*componentes*/
 @import "./components/boostrap-menu";
+@import "./components/titulo-principal";
 
 
 /* media query*/
-@import "./layout/media-query/media-1220px";
 @import "./layout/media-query/media-970px";
 @import "./layout/media-query/media-768px.scss";
+@import "./layout/media-query/media-698px";
 @import "./layout/media-query/media-500px";
 @import "./layout/media-query/media-425px";
 @import "./layout/media-query/media-320px.scss";
