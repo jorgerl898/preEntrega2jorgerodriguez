@@ -17,6 +17,7 @@
             overflow: hidden;
             transition: transform map-get($transiciones, general);
             @include sombra(0 0.125rem 0.25rem rgba(0, 0, 0, 0.5));
+
             &:hover {
                 transform: scale(1.02);
             }

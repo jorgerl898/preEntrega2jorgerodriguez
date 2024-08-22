@@ -1,4 +1,4 @@
-/*--- Extiende para tarjetas---*/
+/*--- Extend para tarjetas---*/
 %tarjeta-comun {
     display: flex;
     align-items: center;
@@ -35,10 +35,10 @@
 }
 
 
-/*--- Extiende para las secciones de contacto---*/
+/*--- Extend para las secciones de contacto---*/
 %contacto-comun {
     display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: map-get($espaciado, general);
     gap: map-get($espaciado, general);
@@ -48,6 +48,7 @@
             display: flex;
             flex-direction: column;
             width: 100%;
+
         }
     }
 
