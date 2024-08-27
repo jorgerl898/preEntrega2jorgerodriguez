@@ -1,7 +1,7 @@
 /* Footer general */
 .footer {
     background-color: map-get($colores, fondo-footer);
-    padding-top: map-get($espaciado, pequeño);
+    padding-top: map-get($espaciado, general);
     text-align: center;
     box-shadow: map-get($sombras, footer);
 }
@@ -9,11 +9,7 @@
 .footer-publicidades {
     display: flex;
     justify-content: space-around;
-    margin-bottom: map-get($espaciado, pequeño);
-}
-
-.footer-figure-publicidad {
-    margin: 0;
+    margin-bottom: map-get($espaciado, general);
 }
 
 .footer-img {
@@ -26,7 +22,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: map-get($espaciado, pequeño);
+    margin-bottom: map-get($espaciado, general);
 }
 
 .footer-texto-redes {
@@ -66,12 +62,16 @@
 }
 
 .footer-legal p {
-    color: map-get($colores, texto-footer-legal);
+
     padding: map-get($espaciado, pequeño);
+    a{
+        color: map-get($colores, texto-footer-legal);
+    }
 }
 
 .footer-parrafo {
     margin: 0;
+    
 }
 
 .footer-link {

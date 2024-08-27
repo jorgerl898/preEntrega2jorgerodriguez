@@ -318,8 +318,9 @@ p {
   color: white; }
 
 .footer-legal p {
-  color: white;
   padding: 0.625rem; }
+  .footer-legal p a {
+    color: white; }
 
 .footer-parrafo {
   margin: 0; }
