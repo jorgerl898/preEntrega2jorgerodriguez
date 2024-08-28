@@ -6,7 +6,7 @@
 
     %contacto-comun {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto; // Dos filas
+        grid-template-rows: auto auto;
         grid-template-areas:
             "texto texto"
             "formulario iframe"
