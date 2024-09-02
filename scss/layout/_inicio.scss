@@ -22,7 +22,7 @@
         img {
             width: 100%;
             display: block;
-            max-width: map-get($tamaños, altura-tarjeta);
+            max-width: map-get($tamaños, hero-maximo);
             height: auto;
             margin: 0 auto;
         }

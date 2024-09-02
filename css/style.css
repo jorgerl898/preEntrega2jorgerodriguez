@@ -17,7 +17,7 @@
   border-radius: 8px;
   overflow: hidden;
   width: 100%;
-  max-width: 75rem;
+  max-width: 25rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease; }
   .servicios-card:hover, .servicios-card-reverse:hover {
@@ -121,7 +121,7 @@ p {
     .hero .hero-figure img {
       width: 100%;
       display: block;
-      max-width: 25rem;
+      max-width: 59.375rem;
       height: auto;
       margin: 0 auto; }
 
@@ -228,7 +228,7 @@ p {
 /*----cursos galeria----*/
 .galeria-contenedor {
   width: 60%;
-  max-width: 75rem;
+  max-width: 25rem;
   margin: 0 auto;
   overflow: hidden;
   padding: 1.25rem; }
