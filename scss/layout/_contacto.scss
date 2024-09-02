@@ -27,16 +27,22 @@
     .iframe {
         width: 100%;
         text-align: center;
-        margin: map-get($espaciado, pequeño) 0; // Espaciado alrededor del iframe
-
+        margin: map-get($espaciado, pequeño) 0;
+    
         iframe {
             width: 80%;
-            height: 300px; // Ajusta según sea necesario
+            height: 300px;
             border: none;
             border-radius: map-get($borders, radio);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+            &:focus {
+                outline: 2px solid #FF5733; /* Cambia el color aquí según prefieras */
+                outline-offset: 2px; /* Opcional: Ajusta el espacio entre el borde y el contenido */
+            }
         }
     }
+    
 
 
 
