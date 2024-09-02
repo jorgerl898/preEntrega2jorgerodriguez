@@ -30,13 +30,13 @@
         margin: map-get($espaciado, pequeño) 0;
         outline: 2px solid map-get($colores, texto-principal);
 
-        iframe :hover{
+        iframe{
             width: 80%;
             height: 300px;
             border: none;
             border-radius: map-get($borders, radio);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            outline: 2px solid map-get($colores, texto-principal);
+
         }
     }
 
@@ -64,6 +64,9 @@
                 border: 1px solid map-get($colores, texto-principal);
                 font-family: map-get($fuentes, secundaria);
                 color: map-get($colores, texto-parrafos);
+                &:focus{
+                    outline: none;
+                }
             }
 
             select {
@@ -72,6 +75,9 @@
                 border: none;
                 cursor: pointer;
                 transition: background-color map-get($transiciones, general);
+                &:focus{
+                    outline: none;
+                }
             }
 
             select:hover {
