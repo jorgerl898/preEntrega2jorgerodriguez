@@ -251,7 +251,7 @@ p {
 
 /*---contacto---*/
 .contenedor-contact {
-  background: linear-gradient(to right, #f9f9f9, #f0e6e2);
+  background-image: linear-gradient(to right, #f9f9f9, #f0e6e2);
   padding: 1.25rem;
   border-radius: 8px;
   font-family: "Platypi";
@@ -263,7 +263,8 @@ p {
     color: #444549;
     font-size: 1.25rem;
     margin-bottom: 1.25rem; }
-    .contenedor-contact .contenedor-text-contacto .telefono, .contenedor-contact .contenedor-text-contacto .email {
+    .contenedor-contact .contenedor-text-contacto .telefono,
+    .contenedor-contact .contenedor-text-contacto .email {
       display: block;
       margin-top: 0.625rem;
       font-weight: bold; }
@@ -288,12 +289,15 @@ p {
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: #f0e4d6; }
-    .contenedor-contact .contenedor-form form input, .contenedor-contact .contenedor-form form textarea, .contenedor-contact .contenedor-form form select {
+    .contenedor-contact .contenedor-form form input,
+    .contenedor-contact .contenedor-form form textarea,
+    .contenedor-contact .contenedor-form form select {
       margin-bottom: 0.625rem;
       padding: 0.75rem;
       border-radius: 8px;
       border: 1px solid #e8897e;
-      font-family: "Roboto"; }
+      font-family: "Roboto";
+      color: #4d5760; }
     .contenedor-contact .contenedor-form form select {
       background-color: #e8897e;
       color: white;
