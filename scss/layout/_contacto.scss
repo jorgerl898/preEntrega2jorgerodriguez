@@ -28,9 +28,8 @@
         width: 100%;
         text-align: center;
         margin: map-get($espaciado, pequeño) 0;
-        outline: 2px solid map-get($colores, texto-principal);
 
-        iframe{
+        iframe {
             width: 80%;
             height: 300px;
             border: none;
@@ -64,9 +63,6 @@
                 border: 1px solid map-get($colores, texto-principal);
                 font-family: map-get($fuentes, secundaria);
                 color: map-get($colores, texto-parrafos);
-                &:focus{
-                    outline: none;
-                }
             }
 
             select {
@@ -75,15 +71,12 @@
                 border: none;
                 cursor: pointer;
                 transition: background-color map-get($transiciones, general);
-                &:focus{
-                    outline: none;
-                }
             }
-
-            select:hover {
-                background-color: map-get($colores, boton);
-            }
-
         }
+
+        select:hover {
+            background-color: map-get($colores, boton);
+        }
+
     }
 }

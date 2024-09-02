@@ -304,8 +304,8 @@ p {
       border: none;
       cursor: pointer;
       transition: background-color 0.3s ease; }
-    .contenedor-contact .contenedor-form form select:hover {
-      background-color: #e8897e; }
+  .contenedor-contact .contenedor-form select:hover {
+    background-color: #e8897e; }
 
 /* Footer general */
 .footer {
