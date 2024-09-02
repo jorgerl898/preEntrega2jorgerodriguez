@@ -18,12 +18,12 @@
     margin: 0;
   }
 
-.hero-figure img{
-  width: 100%;
-  display: block;
-  max-width: map-get($tamaños, altura-tarjeta);
-  height: auto;
-  margin: 0 auto;
+  .hero .hero-figure img {
+    width: 100%;
+    display: block;
+    max-width: 25rem;
+    height: auto;
+    margin: 0 auto;
 }
 
 }
