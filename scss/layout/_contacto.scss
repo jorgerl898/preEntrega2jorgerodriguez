@@ -30,7 +30,7 @@
         margin: map-get($espaciado, pequeño) 0;
         outline: 2px solid map-get($colores, texto-principal);
 
-        iframe {
+        iframe :hover{
             width: 80%;
             height: 300px;
             border: none;
