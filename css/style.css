@@ -121,7 +121,7 @@ p {
     .hero .hero-figure img {
       width: 100%;
       display: block;
-      max-width: 59.375rem;
+      max-width: 25rem;
       height: auto;
       margin: 0 auto; }
 
@@ -504,9 +504,7 @@ p {
     padding: 1.25rem; }
   .contenedor-contact {
     padding: 0;
-    margin: 0; }
-  .hero-figure img {
-    max-width: 400px; } }
+    margin: 0; } }
 
 @media (max-width: 320px) {
   h1 {
