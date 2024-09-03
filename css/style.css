@@ -79,10 +79,6 @@
     background-color: #faf8f8;
     border: none;
     color: #e8897e; }
-  .boton input:focus,
-  .boton textarea:focus,
-  .boton select:focus {
-    outline: #e8897e; }
 
 /*---fuentes--*/
 h1 {
@@ -319,7 +315,7 @@ p {
   background-color: #f8f8f8;
   padding-top: 1.25rem;
   text-align: center;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2); }
 
 .footer-publicidades {
   display: flex;

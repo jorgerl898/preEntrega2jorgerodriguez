@@ -1,16 +1,16 @@
 /*--- Colores ---*/
 $colores: (
+
     fondo-principal: rgb(240, 228, 214),
+    fondo-footer: #f8f8f8,
+    fondo-footer-legal: rgba(77, 87, 96, 1),
     texto-principal: rgba(232, 137, 126, 1),
     texto-secundario: rgb(68, 69, 73),
     texto-parrafos: rgb(77, 87, 96),
-    fondo-footer: #f8f8f8,
+    texto-footer-legal: white,
+    borde-footer: #ccc,
     boton: rgba(232, 137, 126, 1),
     boton-hover: rgb(250, 248, 248),
-    texto-footer: white,
-    borde-footer: #ccc,
-    fondo-footer-legal: rgba(77, 87, 96, 1),
-    texto-footer-legal: white
 );
 
 /*--- Tipografía---*/
@@ -46,7 +46,7 @@ $borders: (
 /*--- Sombras---*/
 $sombras: (
     tarjeta: 0 .25rem .5rem rgba(0, 0, 0, 0.1),
-    footer: 0 .125rem .25rem rgba(0, 0, 0, 0.1),
+    footer: 0 .125rem .25rem rgba(0, 0, 0, 0.2),
     producto: 0 .125rem .25rem rgba(0, 0, 0, 0.5)
 );
 
