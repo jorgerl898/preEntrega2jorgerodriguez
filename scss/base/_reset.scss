@@ -26,7 +26,8 @@
 
     input:focus,
     textarea:focus,
-    select:focus {
-        outline: rgba(232, 137, 126, 1);
+    select:focus,
+    iframe {
+        outline: none;
     }
 }
