@@ -1,4 +1,7 @@
 /*---productos---*/
+.contenedor-producto{
+    background-image: radial-gradient(circle, #f9f9f9, #f0e6e2);
+}
 
 .contenedor-cards {
     display: flex;
@@ -7,7 +10,6 @@
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 2.5rem;
-    background-image: radial-gradient(circle, #f9f9f9, #f0e6e2);
 }
 
 .producto-card {

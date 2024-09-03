@@ -177,14 +177,16 @@ p {
     max-width: 90%; }
 
 /*---productos---*/
+.contenedor-producto {
+  background-image: radial-gradient(circle, #f9f9f9, #f0e6e2); }
+
 .contenedor-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  gap: 2.5rem;
-  background-image: radial-gradient(circle, #f9f9f9, #f0e6e2); }
+  gap: 2.5rem; }
 
 .producto-card {
   position: relative;
