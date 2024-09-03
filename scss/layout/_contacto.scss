@@ -16,12 +16,7 @@
         font-size: 1.25rem;
         margin-bottom: map-get($espaciado, general);
 
-        .telefono,
-        .email {
-            display: block;
-            margin-top: map-get($espaciado, pequeño);
-            font-weight: bold;
-        }
+
     }
 
     .iframe {
@@ -36,6 +31,9 @@
             border-radius: map-get($borders, radio);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
+            &:focus {
+                outline: 2px solid rgb(226, 170, 170);
+            }
         }
     }
 
@@ -53,29 +51,28 @@
             border-radius: map-get($borders, radio);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             background-color: map-get($colores, fondo-principal);
+            #telefono,
+
+            #email {
+                display: block;
+                margin-top: map-get($espaciado, pequeño);
+
+            }
 
             input,
-            textarea,
-            select {
+            textarea {
                 margin-bottom: map-get($espaciado, pequeño);
                 padding: 0.75rem;
                 border-radius: map-get($borders, radio);
                 border: 1px solid map-get($colores, texto-principal);
                 font-family: map-get($fuentes, secundaria);
                 color: map-get($colores, texto-parrafos);
-            }
 
-            select {
-                background-color: map-get($colores, boton);
-                color: white;
-                border: none;
-                cursor: pointer;
-                transition: background-color map-get($transiciones, general);
-            }
-        }
+                &:focus {
+                    outline: 2px solid rgb(226, 170, 170);
+                }
 
-        select:hover {
-            background-color: map-get($colores, boton);
+            }
         }
 
     }

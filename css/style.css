@@ -266,11 +266,6 @@ p {
     color: #444549;
     font-size: 1.25rem;
     margin-bottom: 1.25rem; }
-    .contenedor-contact .contenedor-text-contacto .telefono,
-    .contenedor-contact .contenedor-text-contacto .email {
-      display: block;
-      margin-top: 0.625rem;
-      font-weight: bold; }
   .contenedor-contact .iframe {
     width: 100%;
     text-align: center;
@@ -281,6 +276,8 @@ p {
       border: none;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+      .contenedor-contact .iframe iframe:focus {
+        outline: 2px solid #e2aaaa; }
   .contenedor-contact .contenedor-form form {
     display: flex;
     flex-direction: column;
@@ -292,23 +289,21 @@ p {
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: #f0e4d6; }
+    .contenedor-contact .contenedor-form form #telefono,
+    .contenedor-contact .contenedor-form form #email {
+      display: block;
+      margin-top: 0.625rem; }
     .contenedor-contact .contenedor-form form input,
-    .contenedor-contact .contenedor-form form textarea,
-    .contenedor-contact .contenedor-form form select {
+    .contenedor-contact .contenedor-form form textarea {
       margin-bottom: 0.625rem;
       padding: 0.75rem;
       border-radius: 8px;
       border: 1px solid #e8897e;
       font-family: "Roboto";
       color: #4d5760; }
-    .contenedor-contact .contenedor-form form select {
-      background-color: #e8897e;
-      color: white;
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.3s ease; }
-  .contenedor-contact .contenedor-form select:hover {
-    background-color: #e8897e; }
+      .contenedor-contact .contenedor-form form input:focus,
+      .contenedor-contact .contenedor-form form textarea:focus {
+        outline: 2px solid #e2aaaa; }
 
 /* Footer general */
 .footer {
