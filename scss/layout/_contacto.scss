@@ -51,12 +51,11 @@
             border-radius: map-get($borders, radio);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             background-color: map-get($colores, fondo-principal);
-            #telefono,
 
+            #telefono,
             #email {
                 display: block;
                 margin-top: map-get($espaciado, pequeño);
-
             }
 
             input,
@@ -67,6 +66,7 @@
                 border: 1px solid map-get($colores, texto-principal);
                 font-family: map-get($fuentes, secundaria);
                 color: map-get($colores, texto-parrafos);
+                background: white;
 
                 &:focus {
                     outline: 2px solid rgb(226, 170, 170);
